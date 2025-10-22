@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이탈리아 포시타노</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard/dist/web/static/pretendard.css" />
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+            background-color: #fff;
+            color: #222;
+        }
+
+        img {
+            width: 100%;
+            display: block;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: 700;
+            margin: 40px 0 10px 0;
+            font-size: 28px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.8;
+            margin: 0 auto 40px auto;
+            width: 90%;
+            max-width: 700px;
+            color: #444;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            width: 700px;
+            max-width: 90%;
+            margin: 40px auto 80px auto;
+        }
+
+        .food-item {
+            text-align: center;
+        }
+
+        .food-item img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 14px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .food-item img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+        }
+
+        .food-item p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="포시타노.png" alt="이탈리아 포시타노 전경">
+
+    <h1>이탈리아 포시타노</h1>
+
+    <p>
+        지중해의 보석이라 불리는 포시타노는 절벽 위에 자리한 이탈리아의 아름다운 해안 마을입니다.<br>
+        형형색색의 건물과 푸른 바다가 어우러져 낭만적인 풍경을 자아냅니다.<br>
+        여유로운 거리와 해변에서 이탈리아 특유의 느긋한 정취를 느낄 수 있습니다.
+    </p>
+
+    <h1>포시타노의 먹거리</h1>
+
+    <div class="grid-container">
+        <div class="food-item">
+            <img src="레몬.jpg" alt="레몬 라비올리">
+            <p>상큼한 레몬 소스로 맛을 낸 포시타노의 시그니처 라비올리.</p>
+        </div>
+        <div class="food-item">
+            <img src="문어.jpg" alt="뽈포">
+            <p>신선한 문어를 허브와 올리브오일로 구워낸 전통 해산물 요리.</p>
+        </div>
+        <div class="food-item">
+            <img src="피자.jpg" alt="나폴리 피자">
+            <p>얇고 바삭한 도우에 신선한 토마토와 모짜렐라가 어우러진 정통 피자.</p>
+        </div>
+        <div class="food-item">
+            <img src="봉골레.jpg" alt="봉골레 파스타">
+            <p>바다의 향이 가득한 조개 파스타로, 현지에서 가장 인기 있는 메뉴.</p>
+        </div>
+    </div>
+
+    <p>
+        지중해 바다의 해산물과 포시타노 특산물인 레몬을 이용한 요리 <br> 그리고 나폴리 근처에 위치해 피자의 기원인 나폴리의 피자까지 체헙해볼수 있습니다.
+    </p>
+
+    <h1><a href= 'index.html'>축제 페이지</a></h1>
+
+
+</body>
+</html>
